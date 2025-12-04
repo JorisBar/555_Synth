@@ -1,0 +1,157 @@
+(footprint "SPDT slide switch THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b066b952-c1d4-4870-b913-37054ae5babe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SPDT slide switch THT"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b42a80c8-21e2-4b08-9d72-a70a856f3c98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34d0459a-5874-418a-929c-add6a2dd6ee1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ba53623-aa41-4e73-b713-b1f52643a1e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 4.35 -2.2)
+		(end -4.35 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a4bc909-ddb0-4060-9f59-02f6290fa517")
+	)
+	(fp_line
+		(start 4.35 2.2)
+		(end -4.35 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfc5a163-6ace-4d18-a97b-46788531ef58")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "63f84571-c7bb-4e17-99d7-81c26bc6432d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7d3e960c-0fdf-4280-87dd-f19b3ae2c9a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole roundrect
+		(at -4.15 0)
+		(size 1.2 2)
+		(drill oval 0.7 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "ca2e5beb-e565-4d00-b9c4-d1e1032fef78")
+	)
+	(pad "" thru_hole roundrect
+		(at 4.15 0)
+		(size 1.2 2)
+		(drill oval 0.7 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "a11c0456-39e7-4743-a28e-358c9890e0ab")
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af7304f5-d178-43a8-b58f-bc7ae25971a2")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "21c24e1a-48df-4572-a54c-87e89bc259ce")
+	)
+	(pad "3" thru_hole circle
+		(at 2 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a091fd2e-5c4d-4914-adde-740af4ac2d3f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3D/KiCAD SPDT slide switch C22435632.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

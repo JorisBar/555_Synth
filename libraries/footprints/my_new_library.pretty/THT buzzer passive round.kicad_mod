@@ -1,0 +1,111 @@
+(footprint "THT buzzer passive round"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5e64c9fa-4d50-4fcb-8904-ed29c3050bac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "THT buzzer passive round"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "91997b87-e686-4e5b-824a-3fbba2476fdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82e3c851-beee-43e6-85b1-e590191d5884")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dca3339-1931-4461-8360-33a268db539d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 7 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "28241ffa-4160-42b6-aac0-7e06f6b72ad2")
+	)
+	(fp_text user "+"
+		(at -3.8 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b9ac496f-c74d-4d36-9698-0205c6598d8f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f22c28a7-a58c-448a-af18-d9ea6adcfd93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.8 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c37d4a9e-866c-49fb-85cb-7eed4a4ce790")
+	)
+	(pad "2" thru_hole circle
+		(at 3.8 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c5abfff-134e-43db-85c0-7ce32432a2c0")
+	)
+	(embedded_fonts no)
+)

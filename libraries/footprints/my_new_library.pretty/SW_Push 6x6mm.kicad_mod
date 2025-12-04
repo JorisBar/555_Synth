@@ -1,0 +1,109 @@
+(footprint "SW_Push 6x6mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "646f154a-7072-400d-b40e-fb9eae5c46bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_Push 6x6mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "58388a94-178a-4139-bbd9-902c275ae20d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39c905f4-16b0-4a19-9bd0-e3852ba81f5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d07fa526-5255-42ff-ab2c-a99944c5de06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f1f769d-10e3-41cd-8e28-6b10ee086c79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.5 -2.25)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "de3a2cc1-715f-44ce-8940-24605321db7e")
+	)
+	(pad "1" smd roundrect
+		(at 4.5 -2.25)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "33dfa939-e2c3-4bc7-9bef-f0d83211ac4f")
+	)
+	(pad "2" smd roundrect
+		(at -4.5 2.25)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "9308ea16-c9c9-40f8-a96e-882fa94a990c")
+	)
+	(pad "2" smd roundrect
+		(at 4.5 2.25)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "6b58605a-aac5-4bac-bcc0-6f549ed72bb6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3D/KiCAD push button 6mm  C2837532.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.1 0.1 0.1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

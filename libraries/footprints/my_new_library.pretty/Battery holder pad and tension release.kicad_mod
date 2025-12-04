@@ -1,0 +1,111 @@
+(footprint "Battery holder pad and tension release"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ec272e33-c865-453a-9294-0ca308bf4980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery holder pad and tension release"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9928cc3e-c520-4798-815d-f3f971174ec7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a52b783-5ef6-47bd-a8a3-36d3d2a211b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdb8d9d1-e05e-4eb8-9477-6206073b87d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "+"
+		(at -2.25 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "49bfa352-a477-4ede-b31b-66fb0993d816")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0606fe4f-16af-4e06-bc6f-31f23dd62a9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 3.5)
+		(size 5.5 2.5)
+		(drill oval 5 2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "b031e17d-bbcd-47ac-a2f9-c6319e1e5d63")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 7.5)
+		(size 5.5 2.5)
+		(drill oval 5 2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "d403b9c3-ff3c-498a-8883-ecdaa4dca722")
+	)
+	(pad "1" smd roundrect
+		(at -2.5 0)
+		(size 2.2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "ecee35d8-065a-4ad3-aff3-326140655708")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 0)
+		(size 2.2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "ab5670b7-512b-4a60-b926-54c7642c06aa")
+	)
+	(embedded_fonts no)
+)
